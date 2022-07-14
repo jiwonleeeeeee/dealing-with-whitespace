@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 0 1.3rem;
+  line-height: 1.3;
 }
 
 article {
@@ -18,9 +19,10 @@ article {
 }
 
 article h1 {
-  margin: 0;
+  margin: 0 0 1.3rem;
   font-size: 1.5rem;
   font-weight: normal;
+  margin-bottom: 1px;
 }
 
 article header {
@@ -44,15 +46,18 @@ article > p:last-child {
 }
 
 article ol {
+  padding-left: 1rem;
   margin: 0 0 1rem;
-  padding-left: 1em;
 }
 
 blockquote {
-  color: #555;
   font-size: 1.125rem;
+  color: #555;
+  line-height: 1.3;
 }
 
 .quote {
   color: #999;
+  line-height: 1.3;
+  font-size: 1em;
 }
